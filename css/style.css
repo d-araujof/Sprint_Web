@@ -629,6 +629,12 @@ footer {
     margin-bottom: 5rem;
 }
 
+@media (max-width: 768px) {
+    .header-contato {
+        margin-bottom: 2rem;
+    }
+}
+
 .contato {
     margin-bottom: 5rem;
 }

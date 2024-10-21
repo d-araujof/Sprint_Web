@@ -244,17 +244,12 @@ section {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 5rem;
-        gap: 1rem;
+        margin: 0 1rem 0 1rem;
     }
-}
 
-.funcionalidades-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 15rem;
+    .card {
+        width: 10rem;
+    }
 }
 
 

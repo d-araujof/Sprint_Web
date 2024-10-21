@@ -267,6 +267,11 @@ section {
     margin-bottom: 5rem;
 }
 
+.sobre h1{
+    margin: 0;
+    padding: 0;
+}
+
 .sobre-div {
     margin-left: 5rem;
     margin-right: 5rem;
@@ -276,15 +281,13 @@ section {
 
 @media (max-width: 768px) {
     .sobre {
-        background-color: var(--azul-escuro);
         padding-top: 1rem;
         padding-bottom: 1rem;
-        margin-bottom: 5rem;
     }
     
     .sobre-div {
-        text-align: center;
-        color: var(--branco);
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 }
 

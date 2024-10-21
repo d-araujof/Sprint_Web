@@ -244,8 +244,17 @@ section {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 5rem;
         gap: 1rem;
     }
+}
+
+.funcionalidades-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
 }
 
 
@@ -317,7 +326,7 @@ section {
 
 @media (max-width: 768px) {
     .accordion-item-hardware {
-        width: 500px;
+        width: 400px;
     }
 }
 
@@ -801,7 +810,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 100vh;
+    height: auto;
 }
 
 .construcao-div {

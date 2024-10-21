@@ -224,7 +224,8 @@ section {
 .card {
     border: 2px solid var(--azul-claro);
     border-radius: 10px;
-    width: 30rem;
+    width: 100%; 
+    max-width: 30rem; 
 }
 
 .card-title {
@@ -247,8 +248,8 @@ section {
         margin: 0 1rem 0 1rem;
     }
 
-    .card {
-        width: 10rem;
+    .card{
+        max-width: 15rem;
     }
 }
 

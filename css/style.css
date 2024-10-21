@@ -277,8 +277,8 @@ section {
 @media (max-width: 768px) {
     .sobre {
         background-color: var(--azul-escuro);
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
         margin-bottom: 5rem;
     }
     

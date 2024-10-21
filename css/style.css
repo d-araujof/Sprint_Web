@@ -274,6 +274,19 @@ section {
     color: var(--branco);
 }
 
+@media (max-width: 768px) {
+    .sobre {
+        background-color: var(--azul-escuro);
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin-bottom: 5rem;
+    }
+    
+    .sobre-div {
+        text-align: center;
+        color: var(--branco);
+    }
+}
 
 
 .hardware {
